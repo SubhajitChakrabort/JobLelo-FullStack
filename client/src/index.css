@@ -1,0 +1,33 @@
+/* Basic styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+/* Light theme colors */
+.light {
+  background-color: white;
+  color: #333;
+}
+
+/* Dark theme colors */
+.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Simple transitions */
+.transition-theme {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navigation styles */
+.nav-light {
+  background-color: #3b82f6;
+}
+
+.nav-dark {
+  background-color: #1f2937;
+}
